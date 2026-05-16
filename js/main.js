@@ -94,8 +94,8 @@ if (window.scrollY <= 40) header.classList.remove('scrolled');
 
 // === DARK MODE TOGGLE ===
 const darkToggle = document.getElementById('dark-toggle');
-if (localStorage.getItem('kaka-dark') === 'true') {
-  document.body.classList.add('dark-mode');
+if (localStorage.getItem('kaka-dark') === 'false') {
+  document.body.classList.remove('dark-mode');
 }
 darkToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
