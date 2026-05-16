@@ -247,7 +247,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   .gallery__grid { grid-auto-rows: 180px; }
   .footer { padding: 40px 0 0; }
   .footer__grid { grid-template-columns: 1fr; gap: 32px; padding-bottom: 32px; }
-  .footer__bottom { flex-direction: column; text-align: center; }
+  .footer__bottom { flex-direction: column; text-align: center; padding: 12px 0; gap: 4px; }
   .intro-strip__divider { display: none; }
   .about__features { grid-template-columns: 1fr; }
 }
